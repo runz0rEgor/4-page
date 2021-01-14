@@ -1,0 +1,18 @@
+@media(max-width: 1024px) {
+  .about {
+    display: none;
+  }
+}
+
+@media(max-width:414px) {
+  .login-form {
+    border-left: none;
+    border-top: 3px solid #ffe01b;;
+  }
+}
+
+@media(max-width: 1024px) {
+  .login-form {
+    flex-grow: 1;
+  }
+}
