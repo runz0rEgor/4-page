@@ -1,12 +1,22 @@
 .login-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   border-left: 8px solid #ffe01b;
   padding: 12px;
-  max-width: 650px;
+  width: 33.33333333%;
 }
 
+.login-form__login-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  .login-form__login-wrap{
+    width: 100%;
+    max-width: 480px;
+    
+  }
+}
 
 .login-form__title {
   margin-top: 20px;
