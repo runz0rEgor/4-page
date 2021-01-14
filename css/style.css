@@ -50,7 +50,8 @@ body {
   justify-content: center; }
   .login-form__login-container .login-form__login-wrap {
     width: 100%;
-    max-width: 480px; }
+    max-width: 465px;
+    margin: 0 auto; }
 
 .login-form__title {
   margin-top: 20px;
@@ -156,4 +157,7 @@ body {
     margin-top: 10px;
     padding: 5px 15px;
     background: transparent;
-    border: 2px solid #241c15; }
+    border: 2px solid #241c15;
+    cursor: pointer; }
+    .about__content-btn:hover {
+      opacity: 0.6; }
