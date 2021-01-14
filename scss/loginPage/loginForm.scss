@@ -1,0 +1,30 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 8px solid #ffe01b;
+  padding: 12px;
+  max-width: 650px;
+}
+
+
+.login-form__title {
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.login-form__info {
+  margin-top: 32px;
+  font-size: 18px;
+}
+
+.login-form__info--link {
+  color: #007c89;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+
+.login-form__info--link:hover {
+  color: #015a64;
+}

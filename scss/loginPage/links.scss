@@ -1,0 +1,17 @@
+.login-form__additional-links-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-form__additional-links-separator {
+  padding: 0 10px;
+  margin: -4px 0px;
+}
+
+.login-form__additional-links-link {
+  color: #007c89;
+  cursor: pointer;
+  border-bottom: 1px solid;
+  font-size: 18px;
+}
